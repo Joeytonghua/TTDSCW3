@@ -8,6 +8,7 @@
     - 运行 python main.py normalize 规范化索引大小写
     - 运行 python main.py reset 重置Redis索引缓存
 """
+import download_data  # 确保数据库和索引文件已下载
 
 import argparse
 import os
